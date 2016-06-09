@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head><title>Abstergo Server- The Worlds Best Details Storage</title>
+<link rel="icon" href="D:\NISHANT\pics\fb.jpg" type="image/jpg" />
+<style type="text/css">
+
+body{
+ color: black;
+ }
+
+h1{
+ font-family: "Comic Sans MS";
+ color: black;
+ background-color: grey;
+}
+
+p{
+ color: yellow;
+ background-color: green;
+}
+
+input{
+ color: green;
+ background-color: yellow;
+}
+
+.but{
+ color: blue;
+ background-color: red;
+}
+</style>
+</head>
+
+
+<script language="javascript">
+document.write("<h1>")
+document.write("The Abstergo Server") 
+document.write("</h1>")
+
+function load()
+{
+do{
+var name= prompt("New to Abstergo?Let us know your name.","Nishant")
+
+
+
+
+}while(name=="")
+document.write("Welcome to the most secure server, ", name +"!")
+}
+
+
+
+function conf()
+{
+var text=document.getElementById("texname").innerHTML;
+var pas= pass.value;
+
+var con= confirm("You have entered:"+"\n Abstergo Address:"+text+ "\n Abstergo Code:"+pas "Do you want to save these details");
+
+}
+
+
+</script>
+
+
+
+<hr>
+
+
+
+
+<body bgcolor="black" onload="load()">
+<h2 align="center"> Registration Details</h2>
+<p align="center">Your Abstergo Address:<input type="text" placeholder="example@abstergo" id="texname"><br><br><br>
+<textarea rows="7" cols="50">Your current residential address:</textarea><br><br>
+Your unique Abstergo code:<input type="password" id="pass"><br><br>
+
+<marquee><input type="button" onclick="conf()" value="Sign in" class="but"></marquee>
+</p>
+</body>
+
+
+</html>
