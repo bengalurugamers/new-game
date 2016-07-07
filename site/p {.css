@@ -1,0 +1,19 @@
+p:hover {
+	color: red;
+	background-color: black
+	font-family: comic sans MS;
+}
+
+#logo-img{
+	background: url(D:\NISHANT\pics\128.png); no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+

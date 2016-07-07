@@ -1,0 +1,21 @@
+header{
+			
+			background-color: green;
+			color: red;
+			font-size: 62px;
+			font-family: Comic Sans MS;
+		}
+
+header:hover{
+			background-image: url("download.jpg") no-repeat;
+			background-color: red;
+			color: green;
+			font-size: 60px;
+			font-family: Impact;
+		}		
+
+body{
+	background-color: yellow;
+	color: red;
+}
+
